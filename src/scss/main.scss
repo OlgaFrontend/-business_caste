@@ -2907,7 +2907,7 @@ body {
 		padding-top: 10px;
 	    font-size: 12px;
 	    position: relative; 
-	    top: 270px;
+	    top: 320px;
     	line-height: 16px;
 	}
     
@@ -3066,9 +3066,9 @@ body {
 	    border-radius: 5px;
 
 	    &:after {
-		    width: 58px;
-		    margin-left: -44px;
-		    margin-top: 4%;
+		    width: 62px;
+		    margin-left: -48px;
+		    margin-top: 11px;
 		}
 	}
 
@@ -3084,7 +3084,7 @@ body {
 		padding: 11px 0 16px;
 
 		&__block {
-			width: 70%;
+			width: 80%;
 			padding: 15px 30px;
 			text-align: center;
 		}
@@ -3220,14 +3220,15 @@ body {
 		}
 
 		&__item {
-			width: 255px;
+			width: 60%;
     		margin: 13px auto;
 			height: 90px;
 			padding: 10px 32px 5px 75px;
-			font-size: 16px;
+			font-size: 14px;
 
-			&:before {			    
-			    padding: 30px;
+			&:before {
+				margin-left: -78px;
+	    		padding: 30px;
 			}
 		}
 
@@ -3348,6 +3349,102 @@ body {
 
 	.triangle {
 		
+	}
+
+	.what-you-get {
+		max-width: 320px;
+		margin: 0 auto;
+		padding: 0;
+		display: block;
+
+
+		&__article {
+			width: 100%;
+
+			position: static;
+			border: none;
+			background-color: $black;
+			
+
+			&:nth-child(2) {
+				width: 100%;
+				min-width: 100%;
+				margin: 10px 0;
+			}
+
+			/*&_size {
+				min-width: 320px;
+			}*/
+		}
+
+		&__head,
+		&__item {
+			color: $white;
+		}
+
+		&__head {
+			border-bottom: 3px solid $yellow;
+		}
+	}
+
+	.more-profit {
+		margin-top: 5px;
+
+		&__text {
+			max-width: 294px;
+			margin: 0 auto;
+			padding: 0;
+			font-size: 18px;
+			line-height: 24px;
+			text-align: center;
+		}
+		
+	}
+
+	.result {
+		padding: 15px 0;
+
+		&__head {
+			font-size: 20px;
+			letter-spacing: -.5px;
+		}
+
+		&__text {
+			padding-bottom: 20px;
+			font-size: 16px;
+		}
+
+		&__block {
+			width: 93%;
+		    margin: 15px auto 0;
+		    padding: 20px 10px 0;
+		}
+	}
+
+	.certificate {
+		padding: 15px 0 250px 0px;
+		background-position-x: -15px;
+    	background-position-y: 285px;
+		font-size: 18px;
+		 
+		 &__wrap {
+		 	width: 100%;
+		 }
+
+		 &__head {
+		 	padding: 5px 0 5px;
+		 	font-size: 24px;
+		 	line-height: 24px;
+		 }
+
+		 &__head-size {
+		 	padding: 0;
+		 	font-size: 20px;
+		 }
+
+		 &__text {
+		 	line-height: 20px;
+		 }
 	}
 
 	

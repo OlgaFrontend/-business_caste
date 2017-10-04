@@ -2291,7 +2291,7 @@ body {
     padding-top: 10px;
     font-size: 12px;
     position: relative;
-    top: 270px;
+    top: 320px;
     line-height: 16px; }
   .what,
   .when,
@@ -2386,9 +2386,9 @@ body {
     -webkit-border-radius: 5px;
     border-radius: 5px; }
     .count-value:after {
-      width: 58px;
-      margin-left: -44px;
-      margin-top: 4%; }
+      width: 62px;
+      margin-left: -48px;
+      margin-top: 11px; }
   .countDown_size {
     width: 294px; }
   .caption {
@@ -2396,7 +2396,7 @@ body {
   .ads {
     padding: 11px 0 16px; }
     .ads__block {
-      width: 70%;
+      width: 80%;
       padding: 15px 30px;
       text-align: center; }
     .ads__head {
@@ -2475,12 +2475,13 @@ body {
     padding-bottom: 15px;
     display: block; }
   .skills-up__item {
-    width: 255px;
+    width: 60%;
     margin: 13px auto;
     height: 90px;
     padding: 10px 32px 5px 75px;
-    font-size: 16px; }
+    font-size: 14px; }
     .skills-up__item:before {
+      margin-left: -78px;
       padding: 30px; }
   .skills-up__check {
     width: 30px; }
@@ -2549,4 +2550,62 @@ body {
   .rectangle {
     width: 50px;
     height: 27px;
-    background-color: #f0f4f7; } }
+    background-color: #f0f4f7; }
+  .what-you-get {
+    max-width: 320px;
+    margin: 0 auto;
+    padding: 0;
+    display: block; }
+    .what-you-get__article {
+      width: 100%;
+      position: static;
+      border: none;
+      background-color: #3c3c3c;
+      /*&_size {
+				min-width: 320px;
+			}*/ }
+      .what-you-get__article:nth-child(2) {
+        width: 100%;
+        min-width: 100%;
+        margin: 10px 0; }
+    .what-you-get__head, .what-you-get__item {
+      color: #fff; }
+    .what-you-get__head {
+      border-bottom: 3px solid #f6c90e; }
+  .more-profit {
+    margin-top: 5px; }
+    .more-profit__text {
+      max-width: 294px;
+      margin: 0 auto;
+      padding: 0;
+      font-size: 18px;
+      line-height: 24px;
+      text-align: center; }
+  .result {
+    padding: 15px 0; }
+    .result__head {
+      font-size: 20px;
+      letter-spacing: -.5px; }
+    .result__text {
+      padding-bottom: 20px;
+      font-size: 16px; }
+    .result__block {
+      width: 93%;
+      margin: 15px auto 0;
+      padding: 20px 10px 0; }
+  .certificate {
+    padding: 15px 0 250px 0px;
+    background-position-x: -15px;
+    background-position-y: 285px;
+    font-size: 18px; }
+    .certificate__wrap {
+      width: 100%; }
+    .certificate__head {
+      padding: 5px 0 5px;
+      font-size: 24px;
+      line-height: 24px; }
+    .certificate__head-size {
+      padding: 0;
+      font-size: 20px; }
+    .certificate__text {
+      line-height: 20px; } }
