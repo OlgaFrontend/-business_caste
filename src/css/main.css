@@ -83,7 +83,8 @@ body {
 /*___________________Section Intro___________________*/
 .intro {
   background-image: url("../img/intro/banner-head.png");
-  background-size: cover; }
+  background-size: cover;
+  background-position: center center; }
   .intro_logo {
     display: flex;
     justify-content: space-between; }
@@ -1942,11 +1943,6 @@ body {
     max-width: 320px;
     margin: 0 auto;
     padding: 0; }
-  .intro {
-    background: none; }
-  .bcg-mobile {
-    background-image: url("../img/intro/banner-head.png");
-    background-size: cover; }
   .intro_conditions {
     width: 294px; }
   .intro_logo {
@@ -1994,9 +1990,6 @@ body {
       font-size: 18px; }
   .description {
     background-color: #f0f4f7; }
-  .bcg-mobile {
-    background: url(../img/intro/banner-head.png) no-repeat fixed;
-    background-size: cover; }
   .description {
     color: #242424; }
     .description__title {
@@ -2117,8 +2110,8 @@ body {
   .date {
     padding: 5px 0px 35px; }
     .date__text {
-      padding: 11px 44px;
-      margin: 0 -2px;
+      padding: 11px 40px;
+      margin: 20px -2px 0px;
       font-size: 18px; }
     .date__placeholder-img {
       left: -14px;
@@ -2193,6 +2186,7 @@ body {
     .why-now__text {
       font-size: 16px; }
   .program-of-workshop {
+    max-width: 320px;
     margin: 0 auto 30px; }
     .program-of-workshop__head {
       margin-top: 20px;
@@ -2200,23 +2194,29 @@ body {
     .program-of-workshop__wrap {
       width: 100%;
       margin: 0 auto 30px; }
+  .panel.show {
+    font-size: 14px;
+    line-height: 20px; }
+  .panel__text {
+    padding: 5px 5px 5px 50px; }
+    .panel__text:last-child {
+      background-size: 20px;
+      background-position-x: 15px;
+      background-position-y: 0px; }
   .bonus {
     padding: 0; }
     .bonus__text_big {
       font-size: 27px; }
   .what-you-get {
     max-width: 320px;
-    margin: 0 auto;
+    margin: 10px auto;
     padding: 0;
     display: block; }
     .what-you-get__article {
       width: 100%;
       position: static;
       border: none;
-      background-color: #3c3c3c;
-      /*&_size {
-				min-width: 320px;
-			}*/ }
+      background-color: #3c3c3c; }
       .what-you-get__article:nth-child(2) {
         width: 100%;
         min-width: 100%;
@@ -2307,4 +2307,105 @@ body {
       top: 86%; }
     .carousels__bubble {
       width: 14px;
-      height: 14px; } }
+      height: 14px; }
+  .price-up {
+    background-position: center;
+    font-size: 18px; }
+    .price-up__head {
+      line-height: 24px; }
+    .price-up__block {
+      width: 100%; }
+    .price-up__footer {
+      line-height: 24px; }
+      .price-up__footer_font {
+        font-size: 14px;
+        line-height: 18px; }
+  .price-block {
+    margin-top: 30px;
+    font-size: 16px;
+    line-height: 30px; }
+    .price-block__end {
+      font-size: 14px;
+      text-align: left;
+      line-height: 18px; }
+  .refund {
+    padding: 0; }
+  .refund-item {
+    position: relative;
+    text-align: center; }
+    .refund-item__img {
+      position: absolute;
+      max-height: 150px;
+      top: 25%;
+      left: 83px; }
+    .refund-item__head {
+      margin-bottom: 150px;
+      padding: 15px 0;
+      line-height: 24px; }
+    .refund-item__text {
+      padding: 15px; }
+  .refund-item,
+  .no-doubt__article {
+    width: 100%;
+    padding: 0;
+    margin: 5px auto; }
+  .no-doubt {
+    padding: 0px 0 10px; }
+    .no-doubt__head {
+      margin-bottom: 0;
+      padding: 15px;
+      line-height: 20px; }
+    .no-doubt__text {
+      margin-bottom: 0;
+      padding: 15px; }
+    .no-doubt__item {
+      margin-bottom: 0;
+      padding: 0 15px 15px 35px; }
+      .no-doubt__item_triangle {
+        margin-left: 15px;
+        background-image: url(../img/next.svg); }
+  .final-bonus {
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto 30px; }
+    .final-bonus__head {
+      margin: 30px 0;
+      font-size: 18px;
+      line-height: 20px; }
+    .final-bonus__accordion {
+      margin-top: 20px;
+      padding-left: 60px;
+      padding-right: 10px;
+      letter-spacing: 1px; }
+      .final-bonus__accordion:before {
+        margin-left: -55px;
+        padding: 45px 20px 36px 25px;
+        background-color: white;
+        border-radius: 0;
+        box-shadow: none; }
+  .contacts {
+    display: flex;
+    flex-direction: column; }
+  .contact-info {
+    padding: 30px 0 220px;
+    order: 2; }
+    .contact-info__head {
+      margin-bottom: 0; }
+    .contact-info__list {
+      max-width: 294px;
+      padding: 15px; }
+  .booking {
+    width: 320px;
+    max-width: 320px;
+    margin-left: -160px;
+    left: 50%;
+    top: 77%;
+    background-color: #fff; }
+    .booking__text {
+      padding: 0 15px;
+      color: #212121; }
+  .footer_size {
+    width: 100%; }
+  .footer__copyright, .footer__font, .footer__links {
+    font-size: 12px;
+    line-height: 16px; } }
