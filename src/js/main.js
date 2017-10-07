@@ -21,7 +21,6 @@
 })();
 
 //CountDown Timer
-
 function timerFunc (day, hour, minute, second) {
 	function countDown() {
 
@@ -166,7 +165,7 @@ var carousels = document.getElementsByClassName('carousels');
 
 // google map 
 
-(function() {
+function initMap() {
 
 	var mapOptions = {
 	    center: new google.maps.LatLng(50.506576, 30.606209),
@@ -191,5 +190,7 @@ var carousels = document.getElementsByClassName('carousels');
 	google.maps.event.addListener(marker,'click',function(e){
   		infoWindow.open(map, marker);
   	});
-})();
+}
+
+
 
