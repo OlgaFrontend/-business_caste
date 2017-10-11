@@ -2281,12 +2281,13 @@ body {
     -ms-flex-direction: column;
     flex-direction: column;
     max-height: 160px; }
+  .title {
+    letter-spacing: -1px; }
   .phone_adap {
-    display: block;
-    padding-top: 0;
+    display: inline-block;
+    padding-top: 100%;
     font-size: 12px;
     position: relative;
-    top: 290px;
     line-height: 16px; }
   .what,
   .when,
