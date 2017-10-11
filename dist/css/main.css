@@ -192,7 +192,7 @@ body {
 .description {
   width: 100%;
   max-width: 1700px;
-  margin: 90px auto;
+  margin: 90px auto 0;
   color: #fff;
   display: -webkit-box;
   display: -webkit-flex;
