@@ -1236,8 +1236,8 @@ body {
   padding: 80px 0 10px;
   background-image: url("../img/price-up.png");
   background-repeat: no-repeat;
-  -webkit-background-size: cover;
-  background-size: cover;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
   /*font-family: 'robotoregular', sans-serif, Arial;*/
   font-size: 36px;
   color: #fff; }
