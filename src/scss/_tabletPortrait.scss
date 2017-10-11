@@ -1,0 +1,181 @@
+@media all and (max-width: 959px) {
+	
+	.content-size {
+		max-width: 688px;
+	}
+
+	.asking {
+		width: 100%;
+		
+		&__item {
+		    padding: 20px 0 10px;
+		}
+	}
+
+	.ads {
+		background: none;
+		background-color: $lightgrey;
+
+		&__block {
+		    width: 70%;
+		}
+	}
+
+	.for-whom__content {
+	    width: 688px;
+	    margin: 0 auto;
+	    padding-bottom: 60px;
+	}
+
+	.for-whom__block {
+	    width: 42%;
+	    max-width: 510px;
+	}
+
+	.for-whom__block-first {
+	    margin-right: 0px;
+	}
+
+	.for-whom__block-third {
+	    margin-top: 40px;
+	    position: static;
+	}
+
+	.warranty__item {
+	    width: 42%;
+	    margin: 9px;
+	}
+
+	.skills-up__list {
+	    width: 688px;
+	}
+
+	.suitable-for__article {
+	    width: 45%;
+	}
+
+	.suitable-for__head {
+	    padding: 40px;
+	}
+
+	.suitable-for__list {
+	    padding: 0;
+	}
+
+	.suitable-for_btn {
+	    margin: 50px auto 44px;
+	}
+
+	.why-now {
+		background: none;
+		background-color: $lightgrey;
+
+		&__item {
+			width: 70%;
+		}
+
+		&__text {
+		    margin-bottom: 20px;
+		    line-height: 24px;
+		}
+	}
+
+	.program-of-workshop__wrap {
+	    display: block; 
+	    width: 70%;
+	    margin: 0 auto 40px;
+	}
+
+	.program-of-workshop__left-column,
+	.program-of-workshop__right-column{
+	    width: 100%;
+	    margin: 0 auto;
+	}
+
+	.what-you-get {
+    	margin: 0 auto 410px;
+		
+		&__article_size {
+		    position: relative;
+		    top: 470px;
+		    width: 28%;
+		    min-width: 300px;
+		    max-height: 360px;
+		}
+
+		&__article_size:first-child {
+		    left: 200px;
+		}
+
+		&__article_size:last-child {
+		    right: 200px;
+		}
+
+		&__article:nth-child(2) {
+		    width: 70%; 
+		    min-width: 440px;
+		}
+	}
+
+	.result {
+		background: none;
+		background-color: $lightgrey;
+
+		&__block {
+			width: 70%;
+			line-height: 24px;
+		}
+	}
+
+	.certificate {
+	    padding: 50px 0 600px 50px;
+	    background-position: center;
+	    background-position-y: 440px;
+	  	
+	  	&__wrap {
+		    width: 80%;
+		    margin: 0 auto;
+		    max-width: 540px;
+		    text-align: center;
+		}
+	}
+
+	.carousels__arrow-right,
+	.carousels__arrow-left {
+    	top: 42%;
+	}
+
+	.refund {
+		background: none;
+		background-color: $lightgrey;
+	}
+
+	.refund-item,
+	.no-doubt__article {
+    	width: 70%;
+    }
+	
+	.no-doubt__head {
+	    line-height: 30px;
+	}
+
+    .no-doubt__text {
+	    margin-bottom: 20px;
+	}
+
+	.final-bonus {
+	    margin: 0 auto 80px;
+	    width: 70%;
+	}
+
+	.contact-info__list {
+	    max-width: 688px;
+	    padding-left: 30px;
+	    justify-content: space-between;
+	}
+
+	.contact-info__item {
+	    width: 300px;
+	}
+}
+
