@@ -1299,8 +1299,8 @@ body {
 
 .reg-form {
   position: fixed;
-  top: 15%;
-  bottom: 15%;
+  max-height: 50%;
+  top: 10%;
   left: 25%;
   right: 25%;
   width: 53%;
@@ -1392,10 +1392,21 @@ body {
   .why-now,
   .ads,
   .result {
-    background-size: 15%; }
+    background-size: 20%; }
   .reg-form {
+    max-height: 700px;
     top: 10%;
-    bottom: 15%; } }
+    bottom: 10%; }
+    .reg-form__title {
+      margin-bottom: 4%;
+      font-size: 24px; }
+    .reg-form__closer {
+      width: 30px; }
+    .reg-form__input {
+      font-size: 18px; }
+    .reg-form__btn {
+      padding: 2% 7%;
+      font-size: 20px; } }
 
 /* from 1279px to 1438px*/
 @media (min-width: 1279px) and (max-width: 1438px) {
