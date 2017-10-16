@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -1540,6 +1541,79 @@ body {
   display: inline-block;
   cursor: pointer; }
 
+/*_________________Form of registration________________*/
+.hide-layout {
+  background-color: rgba(33, 33, 33, 0.9);
+  bottom: 0;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10; }
+
+.reg-form {
+  position: fixed;
+  top: 15%;
+  bottom: 15%;
+  left: 25%;
+  right: 25%;
+  width: 53%;
+  padding: 2% 0;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  z-index: 20; }
+  .reg-form__closer {
+    display: block;
+    width: 40px;
+    margin-left: 90%; }
+  .reg-form__title {
+    margin-bottom: 6%;
+    font-size: 36px;
+    text-align: center; }
+  .reg-form__input {
+    display: block;
+    margin: 0 auto 3%; }
+  .reg-form__input[type="text"] {
+    width: 68%;
+    padding: 2% 3%;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #3c3c3c;
+    outline: none;
+    font-size: 20px; }
+  .reg-form__input[placeholder] {
+    font-size: 20px; }
+  .reg-form__btn {
+    margin: 2% auto 4%;
+    padding: 3% 7%;
+    display: block;
+    background-color: #00af81;
+    outline: none;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: none;
+    font-size: 30px;
+    color: #fff;
+    -webkit-box-shadow: 0px 3px 22.95px 4.05px rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 3px 22.95px 4.05px rgba(0, 0, 0, 0.35);
+    cursor: pointer; }
+  .reg-form__footer {
+    font-size: 16px;
+    color: #989898;
+    text-align: center; }
+
+.text-yellow {
+  display: block;
+  color: #f6c90e; }
+
+.hide {
+  display: none; }
+
+.show {
+  display: inline-block;
+  margin: 0 auto; }
+
 /*_______________media queries_______________*/
 /* from 1439px to 1920px*/
 @media (min-width: 1439px) and (max-width: 1920px) {
@@ -1583,7 +1657,10 @@ body {
   .ads,
   .result {
     -webkit-background-size: 15% 15%;
-    background-size: 15%; } }
+    background-size: 15%; }
+  .reg-form {
+    top: 10%;
+    bottom: 15%; } }
 
 /* from 1279px to 1438px*/
 @media (min-width: 1279px) and (max-width: 1438px) {
@@ -1640,7 +1717,9 @@ body {
   .panel__text {
     padding: 4% 15%; }
   .btn-green_show {
-    padding: 30px; } }
+    padding: 30px; }
+  .reg-form {
+    top: 10%; } }
 
 /* from 960px to 1279px*/
 @media all and (max-width: 1279px) {
@@ -2155,7 +2234,22 @@ body {
   .context__text {
     font-size: 14px;
     margin: 0 4%;
-    padding: 15px 5%; } }
+    padding: 15px 5%; }
+  .reg-form {
+    margin: 10% auto;
+    top: 0;
+    bottom: 0;
+    max-height: 450px; }
+    .reg-form__title {
+      font-size: 24px; }
+    .reg-form__closer {
+      width: 30px; }
+    .reg-form__input[type="text"] {
+      font-size: 14px; }
+    .reg-form__input[placeholder] {
+      font-size: 14px; }
+    .reg-form__btn {
+      font-size: 20px; } }
 
 /* from 768px to 959px*/
 @media all and (max-width: 959px) {
@@ -2265,7 +2359,18 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between; }
   .contact-info__item {
-    width: 300px; } }
+    width: 300px; }
+  .reg-form {
+    margin: 20% auto;
+    top: 0;
+    bottom: 0;
+    max-height: 400px; }
+    .reg-form__footer {
+      padding: 0 15%;
+      font-size: 14px; }
+  .btn-block {
+    position: relative;
+    z-index: 9; } }
 
 /* to 767px*/
 @media all and (max-width: 767px) {
@@ -2771,4 +2876,25 @@ body {
     width: 100%; }
   .footer__copyright, .footer__font, .footer__links {
     font-size: 12px;
-    line-height: 16px; } }
+    line-height: 16px; }
+  .reg-form {
+    max-width: 320px;
+    max-height: 350px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 10% auto;
+    overflow: auto; }
+    .reg-form__title {
+      font-size: 18px; }
+    .reg-form__btn {
+      font-size: 18px; }
+    .reg-form__footer {
+      padding: 2% 15%;
+      font-size: 12px; } }
+
+.фон {
+  background-color: #212121;
+  opacity: 0.902; }

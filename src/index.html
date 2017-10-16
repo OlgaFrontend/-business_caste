@@ -27,7 +27,7 @@
 					<div class="when">17-18 Июня 2017, <a class="placeholder-link" href="#"><img class="placeholder-img" src="img/intro/placeholder.svg" alt="placeholder"></a>
 					Киев</div>
 				</div>
-				<div class="btn-block">
+				<div class="btn-block btn-js">
 					<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 					<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 					<button class="btn-block_text">Записаться на WorkShop</button>
@@ -88,7 +88,7 @@
 						<span class="caption">секунд</span>
 					</div>					
 				</div>
-				<button class="btn-green btn-green_to-book">Бронировать место</button>
+				<button class="btn-green btn-green_to-book btn-js">Бронировать место</button>
 			</div>
 			
 			<div class="phone phone_head">
@@ -144,7 +144,7 @@
 			</div>					
 		</div>
 
-	<div class="btn-block registration_btn-block">
+	<div class="btn-block registration_btn-block btn-js">
 		<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 		<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 		<button class="btn-block_text">РЕГИСТРАЦИЯ</button>
@@ -338,7 +338,7 @@
 		<span class="register-now__text-yellow">эффективного интернет-продвижения.</span> 
 	</h3>
 
-	<div class="btn-block register-now_btn-block">
+	<div class="btn-block register-now_btn-block btn-js">
 		<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 		<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 		<button class="btn-block_text">ЗАРЕГИСТРИРОВАТЬСЯ СЕЙЧАС</button>
@@ -419,7 +419,7 @@
 		</ul>
 	</article>
 
-	<button class="btn-green btn-green_show suitable-for_btn">Подать заявку на участие</button>
+	<button class="btn-green btn-green_show suitable-for_btn btn-js">Подать заявку на участие</button>
 	
 </section>
 
@@ -570,7 +570,7 @@
 		</div>
 	</div>
 
-	<button class="btn-green btn-green_show">Подать заявку на участие</button>
+	<button class="btn-green btn-green_show btn-js">Подать заявку на участие</button>
 </section>
 
 <!-- end of program-of-workshop -->
@@ -668,7 +668,7 @@
 	<span class="more-profit__text more-profit__text_yellow">
 		больше прибыли от рекламы прямо сейчас!</span>
 	</h3>
-	<div class="btn-block more-profit_btn-block">
+	<div class="btn-block more-profit_btn-block btn-js">
 		<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 		<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 		<button class="btn-block_text">Регистрация на WorkShop</button>
@@ -734,7 +734,7 @@
 		Хотите узнать <span class="to-participate__color">все тонкости настройки </span><br>
 		эффективной рекламной кампании?
 	</h3>
-	<div class="btn-block to-participate_btn-block">
+	<div class="btn-block to-participate_btn-block btn-js">
 		<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 		<img class="btn-block_pointer-left" src="img/intro/pointer.svg" alt='pointer'>
 		<button class="btn-block_text">Стать учасником WorkShop</button>
@@ -840,7 +840,7 @@
 					<span class="caption caption_color">секунд</span>
 				</div>					
 			</div>
-			<div class="btn-block price-up_btn-block">
+			<div class="btn-block price-up_btn-block btn-js">
 				<img class="btn-block_pointer-left btn-block_visibility" src="img/intro/pointer.svg" alt='pointer'>
 				<img class="btn-block_pointer-left btn-block_visibility" src="img/intro/pointer.svg" alt='pointer'>
 				<button class="btn-block_text">Пройти регистрацию</button>
@@ -1062,7 +1062,7 @@
 			в форму регистрации
 		</p>
 		<div class="context__btn-block">
-			<button class="btn-block_text context__text">Забронировать место</button>
+			<button class="btn-block_text context__text btn-js">Забронировать место</button>
 		</div>
 	</div>
 </section>
@@ -1095,7 +1095,26 @@
 		</div>
 		</div>
 	</footer>
-	
+		<form id="reg-form" class="reg-form hide" action="#" method="POST">
+			<img class="reg-form__closer" src="img/close.svg" alt="close button">
+			<h3 class="reg-form__title">
+				Забронируйте место на 
+				<span class="text-yellow">«Эффективный Google Adwords»</span>
+			</h3>
+			<input class="reg-form__input" type="text" name="" placeholder="Ваше имя">
+			<input class="reg-form__input" type="text" name="" placeholder="Ваша фамилия">
+			<input class="reg-form__input" type="text" name="" placeholder="Ваш номер телефона">
+			<input class="reg-form__input" type="text" name="" placeholder="Ваш e-mail">
+			<button class="reg-form__btn">Стать учасником</button>
+			<p class="reg-form__footer">
+				Ваши данные в безопасности и не будут переданы третьим лицам!
+			</p>
+		</form>
+		<div id="hide-layout" class="hide-layout hide"></div>
+		<!-- сообщаем пользователю -->
+	<noscript>
+		Для корректной работы страницы включите JavaScript в настройках браузера
+	</noscript>
 	<script src="js/main.js"></script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCss1dB2faRgeja0GZy2uB4jZ-mbkNB2tc&callback=initMap"></script>
 </body>

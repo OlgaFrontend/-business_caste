@@ -768,5 +768,32 @@
 		margin: 0 4%;
     	padding: 15px 5%;
 	}
+
+	.reg-form {
+		margin: 10% auto;
+	    top: 0;
+	    bottom: 0;
+	    max-height: 450px;
+		
+		&__title {
+			font-size: 24px;
+		}
+
+		&__closer {
+			width: 30px;
+		}
+
+		&__input[type="text"] {
+			font-size: 14px;
+		}
+
+		&__input[placeholder] {
+			font-size: 14px;
+		}
+
+		&__btn {
+			font-size: 20px;
+		}
+	}
 }
 

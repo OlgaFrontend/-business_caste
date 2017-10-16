@@ -177,5 +177,23 @@
 	.contact-info__item {
 	    width: 300px;
 	}
+
+	.reg-form {
+	    margin: 20% auto;
+	    top: 0;
+	    bottom: 0;
+	    max-height: 400px;
+
+	    &__footer {
+	    	padding: 0 15%;
+	    	font-size: 14px;
+	    }
+	}
+
+	.btn-block {
+		position: relative;
+		z-index: 9;
+    }
+	    
 }
 

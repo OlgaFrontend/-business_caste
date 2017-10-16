@@ -192,5 +192,32 @@ function initMap() {
   	});
 }
 
+//form of registration
 
+var regForm = document.getElementById('reg-form');
+var hideLayout = document.getElementById('hide-layout');
+var btnJs = document.getElementsByClassName('btn-js');
+var btnCloser = document.querySelector('.reg-form__closer');
+
+function addEvent(btnJs) {
+	for (var i = 0, max = btnJs.length; i < max; i++) {
+		btnJs[i].addEventListener('click', getForm);
+	}
+
+	function getForm() {
+		regForm.classList.add('show');
+		hideLayout.classList.add('show');
+	}
+}
+
+addEvent(btnJs);
+
+btnCloser.addEventListener('click', hideForm);
+
+function hideForm() {
+	regForm.classList.remove('show');
+	hideLayout.classList.remove('show');
+	regForm.classList.add('hide');
+	hideLayout.classList.add('hide');
+}
 

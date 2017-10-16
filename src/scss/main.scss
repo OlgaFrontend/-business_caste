@@ -1751,6 +1751,98 @@ body {
 	}
 }
 
+/*_________________Form of registration________________*/
+
+.hide-layout {
+	background-color: rgba(33, 33, 33, .9);
+	bottom: 0;  
+	height: 100%; 
+	position: fixed; 
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.reg-form {
+	position: fixed;
+    top: 15%;
+    bottom: 15%;
+    left: 25%;
+    right: 25%;
+    width: 53%;
+    padding: 2% 0;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    z-index: 20;
+
+	&__closer {
+		display: block;
+    	width: 40px;
+    	margin-left: 90%;
+	}
+
+	&__title {
+		margin-bottom: 6%;
+		font-size: 36px;
+		text-align: center;
+	}
+
+	&__input {
+		display: block;
+		margin: 0 auto 3%;
+	}
+
+	&__input[type="text"] {
+		width: 68%;
+    	padding: 2% 3%;
+		border-radius: 10px;
+		border: 1px solid $black;
+		outline: none;
+		font-size: 20px;
+	}
+
+	&__input[placeholder] {
+		font-size: 20px;
+	}
+
+	&__btn {
+		margin: 2% auto 4%;
+		padding: 3% 7%;
+		display: block;
+		background-color: #00af81;
+		outline: none;
+		border-radius: 100px;
+		border: none;
+		font-size: 30px;
+		color: $white;
+		box-shadow: 0px 3px 22.95px 4.05px rgba(0, 0, 0, 0.35);
+		cursor: pointer;
+	}
+
+	&__footer {
+		font-size: 16px;
+		color: #989898;
+		text-align: center;
+	}
+}
+
+.text-yellow {
+	display: block;
+	color: $yellow;
+}
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+
+
+
 /*_______________media queries_______________*/
 
 /* from 1439px to 1920px*/
@@ -1767,3 +1859,10 @@ body {
 
 /* to 767px*/
 @import "mobile";
+
+
+
+.фон {
+  background-color: rgb(33, 33, 33);
+  opacity: 0.902;
+}

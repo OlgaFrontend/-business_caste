@@ -805,6 +805,31 @@
     		line-height: 16px;
     	}
     }
+
+    .reg-form {
+    	max-width: 320px;
+	    max-height: 350px;
+	    width: 100%;
+	    left: 0;
+	    right: 0;
+	    top: 0;
+	    bottom: 0;
+	    margin: 10% auto;
+	    overflow: auto;
+
+    	&__title {
+    		font-size: 18px;
+    	}
+
+    	&__btn {
+    		font-size: 18px;
+    	}
+
+    	&__footer {
+		    padding: 2% 15%;
+		    font-size: 12px;
+		}
+    }
 } 
 
  
