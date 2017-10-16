@@ -60,9 +60,10 @@
 	}
 
 	.reg-form {
-		max-height: 700px;
+		max-height: 65%;
+		min-height: 540px;
    		top: 10%;
-    	bottom: 10%;
+    	/*bottom: 10%;*/
 
     	&__title {
     		margin-bottom: 4%;
