@@ -85,7 +85,8 @@ body {
   background-image: url("../img/intro/banner-head.png");
   -webkit-background-size: cover;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  height: 90vh; }
   .intro_logo {
     display: -webkit-box;
     display: -webkit-flex;

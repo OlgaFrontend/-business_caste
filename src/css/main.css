@@ -84,7 +84,8 @@ body {
 .intro {
   background-image: url("../img/intro/banner-head.png");
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;
+  height: 90vh; }
   .intro_logo {
     display: flex;
     justify-content: space-between; }

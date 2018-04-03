@@ -26,7 +26,7 @@ function timerFunc (day, hour, minute, second) {
 
 		var time = new Date();
 
-		var eventDate = new Date(2018, 01, 31);
+		var eventDate = new Date(2018, 05, 31);
 
 		var currentTime = time.getTime();
 
